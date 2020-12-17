@@ -1,0 +1,16 @@
+/* header{
+    background-color:#F5E5DE; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'NanumBarunGothic';
+} */
+
+
+.container{
+	border:1px solid #4F4890;
+	margin: 3em 3em 3em 3em;
+    text-align: center;
+    padding: 3em 3em 3em 5em;
+}
