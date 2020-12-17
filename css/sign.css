@@ -1,0 +1,119 @@
+body{
+  background-color: white;
+  transition: all 2s;
+}
+img{
+  height: 100px;
+  width: 300px;
+  margin: 1em 0 4em 0;
+}
+article{
+  margin-top: 70px;
+}
+
+#title{
+  text-decoration: none;
+  font-size: 2rem;
+}
+#signbutton{
+  font-size:2rem; 
+  width:595px; 
+  height: 65px;
+  font-size:2rem; 
+  background-color:#4F4890; 
+  color:white;
+  border:0; 
+  outline: 0;
+  margin-bottom:70px;
+}
+ h2{
+  margin-bottom: 10px;
+}
+.fieldlabel{
+  float:left;
+  width:120px;
+  text-align:left;
+  margin-top: 20px;
+  margin-right: 75px;
+  padding-left:10px;
+}
+.formfield input{
+  /*margin-left: 20px;*/
+  margin-top: 10px;
+  border: 1px solid #4F4890;
+}
+.formfield input:focus{
+  outline:2px solid #4F4890;
+}
+.btnfield{
+  margin-top:15px;
+  float:left;
+}
+#container{
+  background-color: #FFFFFF;
+  border: 1px solid #4F4890;
+  margin: -20px auto 0px auto;
+  /*border :1px solid gray;*/
+  width:740px;
+  -webkit-transition: all 500ms cubic-bezier(0.055, 0.865, 0.440, 1.000);
+   -moz-transition: all 500ms cubic-bezier(0.055, 0.865, 0.440, 1.000);
+     -o-transition: all 500ms cubic-bezier(0.055, 0.865, 0.440, 1.000);
+        transition: all 500ms cubic-bezier(0.055, 0.865, 0.440, 1.000); /* custom */
+
+-webkit-transition-timing-function: cubic-bezier(0.055, 0.865, 0.440, 1.000);
+   -moz-transition-timing-function: cubic-bezier(0.055, 0.865, 0.440, 1.000);
+     -o-transition-timing-function: cubic-bezier(0.055, 0.865, 0.440, 1.000);
+        transition-timing-function: cubic-bezier(0.055, 0.865, 0.440, 1.000); /* custom */
+}
+#container:hover{
+  width:1200px;
+  /*display:block;*/
+}
+.container-left{
+  /*border :1px solid gray;*/
+  padding-top: 50px;
+  margin-left: 60px;
+  float:left;
+}
+#container-right{
+  padding-top: 60px;
+  /*float:right;*/
+  width:0px;
+  display:none;
+}
+.image{
+  margin:0px 10px 10px 0px;
+  height: 180px;
+  width:180px;
+  /*border :1px gray;*/
+}
+
+#rabbit{
+  border : 3px dashed #F94373;
+}
+@media screen and (max-width: 767px) { 
+input{
+  width:450px;
+}
+h1{
+  font-size:25px;
+}
+  input{
+    height:45px;
+  }
+}
+
+@media screen and (min-width: 768px) { 
+
+  input{
+      width:400px;
+      height:45px;
+  }
+  
+  footer a{
+    text-decoration: none;  
+  }
+  input:-webkit-autofill{
+  -webkit-box-shadow: 0 0 0 1000px white inset;
+  }
+}

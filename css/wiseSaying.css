@@ -1,0 +1,38 @@
+@font-face { font-family: 'NotoSerifKR'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NotoSerifKR.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+html{
+    background: url(../images/bookbackground.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'NotoSerifKR';
+}
+div{
+    text-align: center;
+}
+.contents{
+    text-align: center;
+    padding-top: 20%;
+}
+.source{
+    padding-top: 20px;
+}
+
+input#closeButton{
+    margin-top: 25%;
+    margin-left: 42%;
+
+    background: url(../images/closeButton.png);
+    background-repeat: no-repeat;
+    width: 140px;
+    height: 37px;
+    border: 0;
+}
+input#closeButton:hover{
+    background: url(../images/closeButton2.png);
+    background-repeat: no-repeat;
+    width: 140px;
+    height: 37px;
+    border: 0;
+}

@@ -1,0 +1,74 @@
+
+body{
+    margin:0px;
+    background-color:#F5E5DE;
+    font-family : 'Gothic A1', sans-serif;
+}
+header{
+    height:30%;
+    background-color:#F5E5DE;
+}
+#login{
+    float:right;
+    margin-right:3%;
+    font-family : 'Gothic A1', sans-serif;
+    cursor: pointer;
+    font-size:24px;
+}
+#store{
+    float:right;
+    margin-right:2%;
+    font-family : 'Gothic A1', sans-serif;
+    cursor: pointer;
+    font-size:24px;
+}
+#breadcook{
+    float:right;
+    margin-right:2%;
+    font-family : 'Gothic A1', sans-serif;
+    cursor: pointer;
+    font-size:24px;
+}
+
+#logo{
+    cursor: pointer;
+}
+main{
+    text-align: center;
+    margin-top:-50px;
+}
+.row{
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:40px;
+}
+
+.item{
+    flex-basis:350px;
+    flex-shrink: 1;
+    margin:0px 70px 0px 70px;
+    overflow: hidden;/*이미지가 div에 맞게*/
+    border-radius: 70%;
+    width:250px;
+    height: 250px;
+}
+.container{
+    text-align: center;
+
+}
+.profile{
+     width: 250px;
+    height: 250px;
+    object-fit: cover;  
+}
+.content{
+     font-size:24px;
+}
+a{
+    text-decoration: none;
+}
+ a:link { color: black; text-decoration: none;}
+ a:visited { color: black; text-decoration: none;}
+ a:hover { color: black; text-decoration: none;}
